@@ -1,0 +1,5 @@
+claim_id,patient_id,policy_id,hospital_id,bill_id,procedure,claim_date,claimed_amount,approved_amount,status,demo_label
+CLM-001,DEMO-01,POL-A,HOSP-01,BILL-001,Knee replacement,2026-09-01,150000,150000,approved,legitimate two-policy claim
+CLM-002,DEMO-01,POL-B,HOSP-01,BILL-001,Knee replacement,2026-09-02,50000,50000,approved,legitimate two-policy claim
+CLM-003,DEMO-02,POL-A,HOSP-01,BILL-002,Cataract surgery,2026-09-03,80000,0,review,duplicate invoice scenario
+CLM-004,DEMO-02,POL-B,HOSP-01,BILL-002,Cataract surgery,2026-09-04,80000,0,review,duplicate invoice scenario

@@ -1,0 +1,16 @@
+[
+  {
+    "sign_id": "carecost-patient",
+    "password": "PatientCare!2026",
+    "name": "Mrs. Nikita",
+    "phone": "9867885968",
+    "age": 49,
+    "gender": "F",
+    "policy_schema": "ICICI Lombard - Super Mediclaim",
+    "policy_company": "ICICI Lombard",
+    "max_claimable": 1400000,
+    "claim_amount": 120000,
+    "duration": "5",
+    "saved_at": "2026-10-03 03:15:38"
+  }
+]

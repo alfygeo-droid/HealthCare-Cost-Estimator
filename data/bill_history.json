@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1790978226393",
+    "filename": "Provisional-Hospital-Bill.png",
+    "procedure": "Not stated",
+    "stay": "Not stated",
+    "items": [
+      {
+        "name": "Room & Nursing Charges",
+        "quantity": 1,
+        "unit_price": 1650,
+        "total": 1650
+      },
+      {
+        "name": "OT Charges",
+        "quantity": 1,
+        "unit_price": 1000,
+        "total": 1000
+      },
+      {
+        "name": "Professional Fees",
+        "quantity": 1,
+        "unit_price": 1000,
+        "total": 1000
+      }
+    ],
+    "text_preview": "JeevanHospital\nReg.No.DR86486\nDP Road, Pune - 411056.\nPh: 08208064299, Timing: AVAILBALE 24 HOURS AND 7 DAYS.\nPatient UID: 1\nDate: 19-Jan-2023\nName: DUMMY PATIENT (Male)\nAge: 22 years\nAdmission No :000001\nAddress: Pune, PUNE - 411051, Contact No: 9403265989\nAdmission Date: 18-Jan-2023, 12:19 PM\nDischarge Date: / -- / --\nPayer Details\nName: DUMMY PATIENT\nBed No(s): GEN001(GENERAL)\nAddress: Pune, PUNE - 411051\nConsulting Doctors:\n- Dr Akshara Raje (General Physician)\nPROVISIONALBILL\nPrimary Code\nParticulars\nAmount\n100000\nRoom & Nursing Charges\n1650.00\n300000\nOT Charges\n1000.00\n500000\nProfessional Fees\n1000.00\nTotal Bill Amount: 3650.00\nAmount Payable: 3650.00\nAmount Paid: 0.00\nBalance: 3650.00\nPaid amount in words : Zero\nDETAILED BREAKUP\nCode\nDate & Time\nParticulars\nRate\nUnits\nAmount\nRoom/Bed Charges\n100000\n18-01-23 12:19 PM\nBed Charges - GENERAL\n200.00\n11/4\n250.00\n(GEN001)\nSubtotal:\n250.00\nNursing Charges\n102001\n18-01-23 12:19 PM\nNursing Fees - GENERAL\n200.00\n11/4\n250.00\n(GEN001)\n102003",
+    "total": 3650,
+    "risk": "LOW review priority \u2014 verified analysis",
+    "saved_at": "03 Oct 2026, 03:27 AM"
+  },
+  {
+    "id": "1790966881885",
+    "filename": "Provisional-Hospital-Bill.png",
+    "procedure": "Not stated",
+    "stay": "Not stated",
+    "items": [
+      {
+        "name": "Room & Nursing Charges",
+        "quantity": 1,
+        "unit_price": 1650,
+        "total": 1650
+      },
+      {
+        "name": "OT Charges",
+        "quantity": 1,
+        "unit_price": 1000,
+        "total": 1000
+      },
+      {
+        "name": "Professional Fees",
+        "quantity": 1,
+        "unit_price": 1000,
+        "total": 1000
+      }
+    ],
+    "text_preview": "JeevanHospital\nReg.No.DR86486\nDP Road, Pune - 411056.\nPh: 08208064299, Timing: AVAILBALE 24 HOURS AND 7 DAYS.\nPatient UID: 1\nDate: 19-Jan-2023\nName: DUMMY PATIENT (Male)\nAge: 22 years\nAdmission No :000001\nAddress: Pune, PUNE - 411051, Contact No: 9403265989\nAdmission Date: 18-Jan-2023, 12:19 PM\nDischarge Date: / -- / --\nPayer Details\nName: DUMMY PATIENT\nBed No(s): GEN001(GENERAL)\nAddress: Pune, PUNE - 411051\nConsulting Doctors:\n- Dr Akshara Raje (General Physician)\nPROVISIONALBILL\nPrimary Code\nParticulars\nAmount\n100000\nRoom & Nursing Charges\n1650.00\n300000\nOT Charges\n1000.00\n500000\nProfessional Fees\n1000.00\nTotal Bill Amount: 3650.00\nAmount Payable: 3650.00\nAmount Paid: 0.00\nBalance: 3650.00\nPaid amount in words : Zero\nDETAILED BREAKUP\nCode\nDate & Time\nParticulars\nRate\nUnits\nAmount\nRoom/Bed Charges\n100000\n18-01-23 12:19 PM\nBed Charges - GENERAL\n200.00\n11/4\n250.00\n(GEN001)\nSubtotal:\n250.00\nNursing Charges\n102001\n18-01-23 12:19 PM\nNursing Fees - GENERAL\n200.00\n11/4\n250.00\n(GEN001)\n102003",
+    "total": 3650,
+    "risk": "LOW review priority \u2014 verified analysis",
+    "saved_at": "03 Oct 2026, 12:18 AM"
+  },
+  {
+    "id": "1790965179501",
+    "filename": "Provisional-Hospital-Bill.png",
+    "procedure": "Not stated",
+    "stay": "Not stated",
+    "items": [
+      {
+        "name": "Room & Nursing Charges",
+        "quantity": 1,
+        "unit_price": 1650,
+        "total": 1650
+      },
+      {
+        "name": "OT Charges",
+        "quantity": 1,
+        "unit_price": 1000,
+        "total": 1000
+      },
+      {
+        "name": "Professional Fees",
+        "quantity": 1,
+        "unit_price": 1000,
+        "total": 1000
+      }
+    ],
+    "text_preview": "JeevanHospital\nReg.No.DR86486\nDP Road, Pune - 411056.\nPh: 08208064299, Timing: AVAILBALE 24 HOURS AND 7 DAYS.\nPatient UID: 1\nDate: 19-Jan-2023\nName: DUMMY PATIENT (Male)\nAge: 22 years\nAdmission No :000001\nAddress: Pune, PUNE - 411051, Contact No: 9403265989\nAdmission Date: 18-Jan-2023, 12:19 PM\nDischarge Date: / -- / --\nPayer Details\nName: DUMMY PATIENT\nBed No(s): GEN001(GENERAL)\nAddress: Pune, PUNE - 411051\nConsulting Doctors:\n- Dr Akshara Raje (General Physician)\nPROVISIONALBILL\nPrimary Code\nParticulars\nAmount\n100000\nRoom & Nursing Charges\n1650.00\n300000\nOT Charges\n1000.00\n500000\nProfessional Fees\n1000.00\nTotal Bill Amount: 3650.00\nAmount Payable: 3650.00\nAmount Paid: 0.00\nBalance: 3650.00\nPaid amount in words : Zero\nDETAILED BREAKUP\nCode\nDate & Time\nParticulars\nRate\nUnits\nAmount\nRoom/Bed Charges\n100000\n18-01-23 12:19 PM\nBed Charges - GENERAL\n200.00\n11/4\n250.00\n(GEN001)\nSubtotal:\n250.00\nNursing Charges\n102001\n18-01-23 12:19 PM\nNursing Fees - GENERAL\n200.00\n11/4\n250.00\n(GEN001)\n102003",
+    "total": 3650,
+    "risk": "LOW review priority \u2014 verified analysis",
+    "saved_at": "02 Oct 2026, 11:49 PM"
+  }
+]

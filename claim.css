@@ -1,0 +1,11 @@
+.claim-side{display:grid;gap:18px;align-content:start}
+.policy-details{border-color:#b8dcd4;background:#fbfffd}
+.policy-details .policy-highlight{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px}
+.policy-details .policy-highlight div{background:#e7f5f1;border-radius:8px;padding:10px}
+.policy-details small{display:block;color:#68777f;font-size:10px;margin-bottom:3px}
+.policy-details strong{font-size:14px}
+.best-claim{border:2px solid #9fd6c9;background:linear-gradient(135deg,#fff,#f1fbf7)}
+.best-claim .best-badge{background:#176b76;color:#fff;padding:5px 9px;border-radius:20px;font-size:10px;font-weight:bold;display:inline-block}
+.estimate-policy{margin-top:28px}.estimate-cover-intro{margin-bottom:16px}.estimate-policy-history{margin-top:18px}
+.history-clear{border:1px solid #d5e2df;background:#fff;color:#265a5e;border-radius:7px;padding:6px 9px;font:600 11px 'DM Sans';cursor:pointer}
+@media(max-width:560px){.policy-details .policy-highlight{grid-template-columns:1fr}}

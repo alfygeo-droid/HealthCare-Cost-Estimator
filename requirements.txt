@@ -1,0 +1,9 @@
+# Optional enhanced runtime. The included server also runs with Python's standard library.
+Flask>=3.1
+pandas>=2.2
+scikit-learn>=1.4
+openpyxl>=3.1
+pypdf>=6.0
+PyMuPDF>=1.28
+rapidocr-onnxruntime>=1.4
+pillow>=12.0

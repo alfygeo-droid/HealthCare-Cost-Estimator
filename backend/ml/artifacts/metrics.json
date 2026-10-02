@@ -1,0 +1,30 @@
+{
+  "ratio_models": {
+    "linear": {
+      "mae": 0.18276788182684353,
+      "r2": 0.8647433898267866,
+      "target": "department_median_cost_ratio"
+    },
+    "random_forest": {
+      "mae": 0.17437838491615643,
+      "r2": 0.8639995893222766,
+      "target": "department_median_cost_ratio"
+    },
+    "gradient_boosting": {
+      "mae": 0.17450723393191847,
+      "r2": 0.8650897745785184,
+      "target": "department_median_cost_ratio"
+    },
+    "los_random_forest": {
+      "mae": 1.6145873086211928,
+      "r2": 0.7732366249738294,
+      "target": "length_of_stay_days"
+    }
+  },
+  "best": "random_forest",
+  "iforest": {
+    "n": 8000,
+    "median_usd": 282.18,
+    "data_origin": "synthea_encounters_usd"
+  }
+}

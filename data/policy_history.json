@@ -1,0 +1,44 @@
+{
+  "policies": [
+    {
+      "policy_number": "1223",
+      "company": "lic",
+      "sum_insured": 400000,
+      "remaining_cover": 400000,
+      "supports_multiple_claims": true,
+      "criteria": "No policy criteria supplied in this demo lookup. Confirm exclusions and pre-authorisation with the insurer.",
+      "lookup_source": "Saved local policy record"
+    },
+    {
+      "policy_number": "2465",
+      "company": "star health",
+      "sum_insured": 500000,
+      "remaining_cover": 496350,
+      "supports_multiple_claims": true,
+      "criteria": "Cashless/network eligibility, waiting periods and exclusions must be confirmed with the insurer.",
+      "lookup_source": "Saved local policy record"
+    },
+    {
+      "policy_number": "67463",
+      "company": "health star",
+      "sum_insured": 200000,
+      "remaining_cover": 200000,
+      "supports_multiple_claims": true,
+      "criteria": "No policy criteria supplied in this demo lookup. Confirm exclusions and pre-authorisation with the insurer.",
+      "lookup_source": "Local demo lookup \u2014 not insurer-verified"
+    },
+    {
+      "policy_number": "8e9f5191-ecf9-4120-9ee9-0700e8be67f4",
+      "schema": "ICICI Lombard - Super Mediclaim",
+      "company": "ICICI Lombard",
+      "sum_insured": 1400000,
+      "remaining_cover": 1400000,
+      "max_claimable": 1400000,
+      "supports_multiple_claims": true,
+      "criteria": "Cashless: Yes \u00b7 Pre-existing disease cover: After 3 years \u00b7 Entry age: 8\u201361 years",
+      "lookup_source": "CareCost AI policy schema dataset"
+    }
+  ],
+  "claims": [],
+  "policy_history": []
+}

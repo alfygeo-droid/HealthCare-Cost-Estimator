@@ -1,0 +1,4 @@
+bill_id,patient_id,hospital_id,procedure,item,category,quantity,unit_price,total_price,invoice_number,demo_label
+BILL-001,DEMO-01,HOSP-01,Knee replacement,Room charge,Room,4,5500,22000,INV-01,normal
+BILL-002,DEMO-02,HOSP-01,Cataract surgery,Diagnostic test,Diagnostics,1,3000,3000,INV-02,duplicate line follows
+BILL-002,DEMO-02,HOSP-01,Cataract surgery,Diagnostic test,Diagnostics,1,3000,3000,INV-02,duplicate line
