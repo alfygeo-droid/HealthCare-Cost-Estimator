@@ -154,14 +154,19 @@ def patient_login(payload):
 
 def save_patient_profile(payload):
     required = ['sign_id', 'password', 'name', 'age', 'gender', 'policy_schema', 'claim_amount']
-    if any(not text(payload.get(field)) for field in required): raise ValueError('Complete the profile, credentials, policy schema and claim amount.')
+    if any(not text(payload.get(field)) for field in required if field != 'age'): raise ValueError('Complete the profile, credentials, policy schema and claim amount.')
+    try:
+        age = int(text(payload.get('age')))
+    except (TypeError, ValueError):
+        raise ValueError('Age must be a whole number from 1 to 150.')
+    if not 1 <= age <= 150: raise ValueError('Age must be between 1 and 150.')
     profiles=load_patient_profiles()
     if any(p.get('sign_id','').lower()==text(payload.get('sign_id')).lower() for p in profiles): raise ValueError('That Sign ID is already saved.')
     schema=next((x for x in policy_schema_catalog() if x['schema']==text(payload.get('policy_schema'))), None)
     if not schema: raise ValueError('Choose a policy schema from the supplied policy dataset.')
     profile={
         'sign_id': text(payload.get('sign_id')), 'password': text(payload.get('password')), 'name': text(payload.get('name')),
-        'phone': text(payload.get('phone')) or 'Not provided', 'age': int(payload.get('age')), 'gender': text(payload.get('gender')),
+        'phone': text(payload.get('phone')) or 'Not provided', 'age': age, 'gender': text(payload.get('gender')),
         'policy_schema': schema['schema'], 'policy_company': schema['company'], 'max_claimable': schema['max_claimable'],
         'claim_amount': money(payload.get('claim_amount')), 'duration': text(payload.get('duration')) or 'Not provided',
         'saved_at': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
